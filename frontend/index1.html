@@ -6,14 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            background-color:honeydew;
+         body{
+           
+            background-size: cover;
+            animation-name: kartinka;
+            animation-duration: 20s;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        @keyframes kartinka{
+        0%{
+        background-image:url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UHQC35CGRZAZJCWQBN7EZSRVPQ.jpg) ;
+        }
+        20%{
+            background-image: url(https://motor.ru/imgs/2021/06/11/15/4713871/016b7eb4d2747d8439f46cf08b8f8351e8d5db84.jpeg);
+        }
+        40%{
+            background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/QHMUWLV3YBBA3PYJSW4ONTD4HE.jpg);
+        }
+        60%{
+            background-image: url(https://static.tcimg.net/vehicles/primary/bcee10443cf81e6a/2021-Ferrari-Portofino_M-gray-full_color-driver_side_front_quarter.png);
+        }
+        80%{
+            background-image: url(https://cdn.motor1.com/images/mgl/P33WYL/s3/ferrari-sp48-unica.jpg);
+        }
+        100%{
+            background-image: url(https://m.atcdn.co.uk/vms/media/a5deb282e38647b388f125d90fa7bd42.jpg);
+        }
+
         }
     </style>
 </head>
 <body>
     <h1>Ferrari</h1>
-    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UHQC35CGRZAZJCWQBN7EZSRVPQ.jpg" width="800" height="500" alt="Ferrari rasmi">
     <h2>Ferrari's story officially began in 1947 when its first road car, the 125 S, emerged from the gate of no. 4 Via Abetone Inferiore in Maranello. The iconic two-seater went on to win the Rome Grand Prix later that year and shortly thereafter was developed into a refined GT roadster. The company has travelled a long way since then, but its mission has remained unaltered: to make unique sports cars that represent the finest in Italian design and craftsmanship, both on the track and on the road. </h2>
 </body>
 </html>
